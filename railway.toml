@@ -1,0 +1,8 @@
+# Lead-demo default: cheapest viable static ship
+# Set via Railway MCP update-service: sleepApplication=true, limits vCPUs=0.25 memoryGB=0.25, 1 replica
+[build]
+builder = "RAILPACK"
+buildCommand = "npm run build"
+
+[deploy]
+startCommand = "npm start"
